@@ -4,69 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anton CV</title>
+    <link rel="stylesheet" href="CVAnton.css" />
   </head>
-  <style>
-    body {
-      background-color: rgb(255, 255, 254);
-      margin: 0 auto;
-    }
-    .container {
-      width: auto;
-      display: flex;
-    }
-    .personal {
-      background-color: rgb(13, 75, 75);
-      width: 20%;
-      margin: 0;
-      padding-left: 2em;
-      border: 2px rgb(5, 5, 5) dotted;
-      color: rgb(255, 255, 255);
-    }
 
-    .personal_items {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-    }
-    .resume {
-      width: 80%;
-      padding-left: 3em;
-      padding-right: 4em;
-      border: 1px rgb(0, 0, 139) dotted;
-    }
-    p {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-      text-align: justify;
-      border: 1px rgb(0, 139, 12) dotted;
-    }
-    .date {
-      font-family: Verdana, Arial, Helvetica, sans-serif;
-      font-size: 12px;
-      color: rgba(0, 0, 0, 0.5);
-      text-transform: uppercase;
-      border: 1px rgb(139, 0, 79) dotted;
-    }
-    h3 {
-      border: 1px rgb(0, 0, 139) dotted;
-    }
-    .rounded-img {
-      border: 1px rgb(250, 248, 249) dotted;
-      width: 60%;
-      border-radius: 50%;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-      padding: 10px;
-      margin-top: 20px;
-    }
-  </style>
   <body>
     <div class="container">
       <div class="personal">
-        <img class="rounded-img" src="" alt="My photo" />
+        <div class="photo">
+          <img class="rounded-img" src="" alt="My photo" />
+        </div>
 
         <head>
           <h1>Anton Tsurkan</h1>
         </head>
-        <h4>SENIOR SOFTWARE ENGINEER</h4>
+        <hr />
+
+        <span class="profession">SENIOR SOFTWARE ENGINEER</span>
+
         <div class="personal_items">
           <h3>Details</h3>
           <ul>
@@ -75,7 +29,7 @@
             <li>380508005884</li>
           </ul>
 
-          <a href="">anton.ts1994@gmail.com</a>
+          <a href="anton.ts1994@gmail.com">anton.ts1994@gmail.com</a>
           <h3>Links</h3>
           <a href="">Linkedin</a>
           <h3>Skills</h3>
@@ -96,8 +50,13 @@
           <h3>Languages</h3>
           <ul>
             <li>English</li>
+
+            <hr class="language_1" />
+            <hr class="language_english" />
             <li>Ukrainian</li>
+            <hr class="language" />
             <li>Russian</li>
+            <hr class="language" />
           </ul>
         </div>
       </div>
