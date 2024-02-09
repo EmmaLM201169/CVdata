@@ -14,7 +14,6 @@ body {
 
   color: rgb(255, 255, 255);
   text-align: justify;
-  border: 1px rgb(237, 246, 238) dotted;
 }
 
 .personal_items {
@@ -40,17 +39,16 @@ p {
   text-transform: uppercase;
 }
 h1 {
-  text-align: justify;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .rounded-img {
-  border: 1px rgb(250, 248, 249) dotted;
-  width: 60%;
+  width: 40%;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   padding: 10px;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 .profession {
   text-transform: uppercase;
@@ -63,7 +61,6 @@ h1 {
 }
 .photo {
   text-align: center;
-  border: 1px rgb(250, 248, 249) dotted;
 }
 hr {
   background-color: rgb(255, 255, 255, 0.1);
