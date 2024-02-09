@@ -4,52 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anton CV</title>
+    <link rel="stylesheet" href="CVAnton.css" />
   </head>
-  <style>
-    body {
-      background-color: rgb(255, 255, 254);
-      margin: 0 auto;
-    }
-    .container {
-      width: auto;
-      display: flex;
-    }
-    .personal {
-      background-color: rgb(13, 75, 75);
-      width: 20%;
-      margin: 0;
-      padding-left: 2em;
 
-      border: 2px rgb(5, 5, 5) dotted;
-      color: rgb(255, 255, 255);
-    }
-    .personal_items {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-    }
-    .resume {
-      width: 80%;
-      padding-left: 3em;
-      padding-right: 4em;
-      border: 1px rgb(0, 0, 139) dotted;
-    }
-    p {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-      text-align: justify;
-    }
-    span {
-      font-size: 12px;
-      font-style: c;
-    }
-  </style>
   <body>
     <div class="container">
       <div class="personal">
+        <div class="photo">
+          <img class="rounded-img" src="" alt="My photo" />
+        </div>
+
         <head>
           <h1>Anton Tsurkan</h1>
         </head>
-        <h4>SENIOR SOFTWARE ENGINEER</h4>
+        <hr />
+
+        <span class="profession">SENIOR SOFTWARE ENGINEER</span>
+
         <div class="personal_items">
           <h3>Details</h3>
           <ul>
@@ -58,7 +29,7 @@
             <li>380508005884</li>
           </ul>
 
-          <a href="">anton.ts1994@gmail.com</a>
+          <a href="anton.ts1994@gmail.com">anton.ts1994@gmail.com</a>
           <h3>Links</h3>
           <a href="">Linkedin</a>
           <h3>Skills</h3>
@@ -79,51 +50,68 @@
           <h3>Languages</h3>
           <ul>
             <li>English</li>
+
+            <hr class="language_1" />
+            <hr class="language_english" />
             <li>Ukrainian</li>
+            <hr class="language" />
             <li>Russian</li>
+            <hr class="language" />
           </ul>
         </div>
       </div>
       <div class="resume">
         <h2>Profile</h2>
         <p>
-          I am an experienced software developer with a background in team leadership. 
-          I excel in a collaborative work environment where decisions are made thoughtfully, and where experienced team members readily assist their colleagues. 
-          I strongly believe in the potential for motivated individuals to grow and become specialists in their field.
-
-          My primary expertise lies in team management, as well as in developing applications from the ground up using well-established libraries and frameworks. 
-          I have successfully overseen international projects.
-        
-          I am dedicated to mentoring and fostering talent, helping individuals grow without applying undue pressure. 
-          Additionally, I enjoy hands-on coding and remain actively involved as a developer.
-          
-          Currently, my goal is to further enhance my skills as an architectural developer and to improve my ability to manage remote teams. 
-          Over the past four years, I have held positions as an Assistant Client Architect and Client Architect, specializing in full-stack development within the gambling industry. 
-          My work predominantly involves graphics and browser canvas, while I also welcome opportunities to explore new challenges, including live server-side coding and database management
+          I am an experienced software developer with a background in team
+          leading. I excel in a collaborative work environment where decisions
+          are made thoughtfully, and where experienced team members readily
+          assist their colleagues. I strongly believe in the potential for
+          motivated individuals to grow and become specialists in their field.
+        </p>
+        <p>
+          My primary expertise lies in team management, as well as in developing
+          applications from the ground up using well-established libraries and
+          frameworks. I have successfully overseen international projects in
+          roles such as Product Owner and Technical Lead.
+        </p>
+        <p>
+          I am dedicated to mentoring and fostering talent, helping individuals
+          grow without applying undue pressure. Additionally, I enjoy hands-on
+          coding and remain actively involved as a developer.
+        </p>
+        <p>
+          Currently, my goal is to further enhance my skills as an architectural
+          developer and to improve my ability to manage remote teams. Over the
+          past four years, I have held positions as an Assistant Client
+          Architect and Client Architect, specializing in full-stack development
+          within the gambling industry. My work predominantly involves graphics
+          and browser canvas, while I also welcome opportunities to explore new
+          challenges, including live server-side coding and database management.
         </p>
         <h2>Employment History</h2>
         <h3>JavaScript Test Automation engineer, DUNE-HD, Kiev</h3>
-        <span>M A R C H 2 0 1 3 — N O V E M B E R 2 0 1 5</span>
+        <span class="date">M A R C H 2 0 1 3 — N O V E M B E R 2 0 1 5</span>
         <p>
           Development of a test application for satellites set-top boxes and
           writing tests within this application
         </p>
         <h3>Senior QA engineer, IT-STAR, Kiev</h3>
-        <span> O C T O B E R 2 0 1 5 — J U LY 2 0 1 6 </span>
+        <span class="date"> O C T O B E R 2 0 1 5 — J U LY 2 0 1 6 </span>
         <p>
           Pharmaceutical store servers testing and medical nomenclature control
         </p>
         <h3>JS Game Devloper, DJust, Kiev</h3>
-        <span> A U G U S T 2 0 1 6 — M AY 2 0 1 7 </span>
+        <span class="date"> A U G U S T 2 0 1 6 — M AY 2 0 1 7 </span>
         <p>Development of novomatic slots and modern slots (gambling)</p>
         <h3>JS Middle Game Developer, EvoPlay Entertaiment, Kiev</h3>
-        <span> J U N E 2 0 1 7 — M A R C H 2 0 1 8 </span>
+        <span class="date"> J U N E 2 0 1 7 — M A R C H 2 0 1 8 </span>
         <p>
           Developing instant and table games as a software developer (general)
           and tech artist (less)
         </p>
         <h3>JS Game Team Lead, EvoPlay Entertaiment, Kiev</h3>
-        <span> march 2018 — A U G U S T 2 0 2 1 </span>
+        <span class="date"> march 2018 — A U G U S T 2 0 2 1 </span>
         <p>
           Writing games with a ready‐made engine. Support for the old game
           engine. Working with a foreign project, adapting the game engine and
@@ -135,16 +123,20 @@
         </p>
 
         <h3>Front-end developer, NDA, Kiev</h3>
-        <span> S E P T E M B E R 2 0 2 1 — J A N U A R Y 2 0 2 2 </span>
+        <span class="date">
+          S E P T E M B E R 2 0 2 1 — J A N U A R Y 2 0 2 2
+        </span>
         <p>Work as classic Front‐end developer at NDA company. (livecasino)</p>
         <h3>Senior Software Engineer, Stakelogic, Kiev</h3>
-        <span> F E B R U A R Y 2 0 2 2 — A U G U S T 2 0 2 2 </span>
+        <span class="date">
+          F E B R U A R Y 2 0 2 2 — A U G U S T 2 0 2 2
+        </span>
         <p>
           Creating new game engine framework (gambling), UI‐wrapper support for
           slot games
         </p>
         <h3>Client Architecture Developer, Innovation Group, Odessa / Kiev</h3>
-        <span> S E P T E M B E R 2 0 2 2 — P R E S E N T </span>
+        <span class="date"> S E P T E M B E R 2 0 2 2 — P R E S E N T </span>
       </div>
     </div>
   </body>
